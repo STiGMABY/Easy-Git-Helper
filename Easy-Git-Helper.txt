@@ -117,6 +117,8 @@ git reset <commitID> - УДАЛИТ все коммиты до коммита в
 	git reset <commitID> --hard - в этом случае будет УДАЛЕНЫ все коммиты до соответсвующего commitID, а так же ФАЙЛЫ на локальном диске.
 
 	git reset HEAD <example.txt> - вернуть изменения к предыдушим последним для файла example.txt
+
+	git reset --soft HEAD~1  - откатиться на одно изменение назад
 	
 git branch -d <branch-name> - удалить ветку на ЛОКАЛЬНОМ репозитории
 
